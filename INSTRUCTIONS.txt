@@ -1,0 +1,32 @@
+Compilar o programa:
+gcc codigo.cpp -lstdc++ -std=c++11 -lm -O3
+<ou>
+g++ -std=c++11 codigo.cpp
+
+Executar:
+
+./a.out
+
+
+<Escolher simbolo pretendido>
+1 - X, 2 - O
+
+<Escolher se pretende ser o primeiro a jogar>
+s - sim, n -nao
+
+<Escolher se pretende definir limitação na profundidade>
+s - sim, n -nao
+
+<Escolher se pretende utilizar o algoritmo alpha-beta para otimizar o minimax>
+s - sim, n -nao
+
+<Número da casa onde pretende colocar a sua peça>
+1 até 9 (a casa tem de estar em branco, representada pelo seu numero)
+
+
+Exemplo:
+
+./a.out
+
+1 s s n
+5 3 4 2 9
